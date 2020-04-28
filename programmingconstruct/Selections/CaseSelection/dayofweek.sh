@@ -18,4 +18,4 @@ read -p "Enter number of the day" num
                 7)echo "Saturday"
                         ;;
         esac
-done
+

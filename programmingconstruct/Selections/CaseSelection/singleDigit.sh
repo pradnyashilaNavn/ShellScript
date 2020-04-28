@@ -22,4 +22,4 @@ read -p "Enter single digit number" num
 		9)echo "nine"
 			;;
 	esac
-done
+

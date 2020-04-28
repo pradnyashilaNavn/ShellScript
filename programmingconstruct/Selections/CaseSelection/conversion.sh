@@ -4,6 +4,7 @@ printf "Enter 1 for (Feet to Inch) \n Enter 2 for (Inch to Feet) \n Enter 3 for 
 read opt
 
 case $opt in
+  
        1)  result=$(($len * 12))
            echo $len" Feet = " $result " Inch"
            ;;

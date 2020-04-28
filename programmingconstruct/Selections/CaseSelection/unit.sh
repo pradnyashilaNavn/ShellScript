@@ -1,5 +1,5 @@
 #!/bin/bash -x
-read -p "Enter the unit base of 10" num
+read -p "Enter the unit base of 10 " num
 
         case $num in
                 1)echo "unit"
@@ -17,4 +17,3 @@ read -p "Enter the unit base of 10" num
                 1000000)echo "TenLakhs"
                         ;;
         esac
-done
