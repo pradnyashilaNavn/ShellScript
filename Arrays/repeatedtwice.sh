@@ -6,7 +6,7 @@ c=0
   num2=$((i/10))
   if [ $num1 -eq $num2 ]
   then
-    array[((c++))] =$i
+    array[((c++))]=$i
   fi
  done
 echo ${array[@]}
