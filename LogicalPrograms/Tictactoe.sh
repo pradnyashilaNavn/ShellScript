@@ -44,7 +44,7 @@ if (( $k == 0 ))
 then 
 clear
 echo Game is Draw!
-bash tttgame.sh
+bash Tictactoe.sh
 fi
 }
 
