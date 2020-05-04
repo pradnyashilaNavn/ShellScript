@@ -4,7 +4,7 @@ echo "Enter number of rows : "
 read p
 echo "Enter number of coloumns : "
 read c
-for(( i=0;i<r;i++ ))
+for(( i=0;i<p;i++ ))
 do
  for(( j=0;j<c;j++ ))
   do
@@ -19,7 +19,7 @@ do
  done
 done
 echo "Array : "
-for(( i=0;i<r;i++ ))
+for(( i=0;i<p;i++ ))
 do
  for(( j=0;j<c;j++ ))
  do
